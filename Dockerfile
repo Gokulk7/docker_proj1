@@ -1,4 +1,4 @@
-FORM nginx
+FROM nginx
 
 LABEL maintainer "gokul.sureshkumar@mavenir.com"
 
