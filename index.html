@@ -1,0 +1,29 @@
+<html>
+<body>
+<h1>Solve Image Problem</h1>
+<div class="ui segment">
+    <div class="ui modal">
+        <div id="model-content-header" class="header">
+            Your Result
+        </div>
+        <div id="model-content-result" class="content">
+            You are a bot!
+        </div>
+        <div class="actions">
+            <div class="ui black positive button">
+              Close
+            </div>
+        </div>
+    </div>
+    <h2>A random image</h2>
+    <img id="main-image" class="display-image" />
+    <h2>Make this image match above</h2>
+    <img id="option-image" class="display-image"/>
+    <div class="all-buttons">
+        <button class="ui button" type="button" onclick="rotate('left')"> Rotate Left </button>
+        <button class="ui primary button" type="button" onclick="validate();"> Verify </button>
+        <button class="ui button" type="button" onclick="rotate('right');"> Rotate Right </button>
+    </div>
+</div>
+</body>
+</html>
