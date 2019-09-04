@@ -1,9 +1,9 @@
 pipeline {
     agent { label 'master' }
     stages {
-        stage('Clone Repo') {
+        stage('Build') {
             steps {
-                checkout scm
+                echo "Build is running"
                  }
             }
         }
